@@ -1,0 +1,177 @@
+*{
+  margin-top: 0px;
+}
+
+h1 {
+  font-size: 10em;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  margin: 0.5em 0;
+  text-shadow: 4px 4px 2px #888;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 2.5em;
+  text-align: center;
+  margin: 1em 0 0.5em;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #888;
+}
+
+p {
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 1.6em;
+  text-align: center;
+  margin: 1em auto;
+  max-width: 800px;
+  line-height: 1.5;
+}
+.top{
+  display: flex;
+ flex-direction: column;
+  margin: 100px;
+}
+
+.acceuil{
+  border: solid azure;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px 10px #666565;
+
+}
+
+.container { 
+  border-radius: 50px;
+  background-color: #ddd;
+  box-shadow: 5px 5px 10px 5px #666565
+}
+
+.skills {
+  text-align: right;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  box-shadow: 5px 5px 10px 5px #666565
+}
+
+.html {
+  width: 70%; background-color: #04AA6D;
+}
+
+.css {
+  width: 70%; background-color: #2196F3;
+}
+
+.js {
+  width: 35%; background-color: #f44336;
+}
+body {
+  background-image: url(images/low_poly_banner_design_1711.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr ;
+ margin: 100px; 
+ gap: 100px;
+}
+
+.infos{
+  border: solid azure;
+ border-radius: 15px;
+ box-shadow: 10px 10px 15px 10px #666565;
+}
+
+.experiences{
+  border: solid azure;
+ border-radius: 15px;
+ box-shadow: 10px 10px 15px 10px #666565;
+}
+
+.projet{
+  border: solid azure;
+  margin: 100px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px 10px #666565;
+}
+.projet a{
+  width: 90%;
+}
+
+.liens{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact{
+  font-style: oblique;
+  border: solid azure;
+  margin: 100px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px 10px #666565;
+}
+.profil{
+  display: block;
+  margin: auto;
+  max-width: 20%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 50%;
+  border: solid 5px azure;
+  box-shadow: 10px 10px 15px 10px #666565;
+}
+a{
+  display: flex;
+  justify-content: center;
+}
+
+/* pour les petits écrans */
+@media screen and (max-width: 768px) {
+  .top {
+    margin: 50px;
+  }
+  
+  h1 {
+    font-size: 4em;
+  }
+  
+  h2, h3, h4, h5, h6 {
+    font-size: 2em;
+    margin: 0.5em 0 0.3em;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin: 1em;
+    line-height: 1.2;
+  }
+  
+  img {
+    max-width: 40%;
+  }
+  
+  .grid, .projet, .contact {
+    margin: 50px;
+  }
+  
+  .projet img {
+    width: 100%;
+  }
+}
+
+/* pour les écrans moyens */
+@media screen and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+    margin: 50px;
+  }
+  
+  .projet, .contact {
+    margin: 50px;
+  }
+}
+
